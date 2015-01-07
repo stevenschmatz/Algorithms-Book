@@ -8,6 +8,7 @@ However, I am not limiting the content of this book to the course material alone
 
 ## Sources of information
 * **Introduction to Algorithms, 3rd Edition** by Cormen *et al*. (CLRS).
+* EECS 281 lecture notes
 
 Other sources will be added as they are used.
 
