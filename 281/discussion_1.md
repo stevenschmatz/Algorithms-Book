@@ -60,18 +60,23 @@ To start, type `gdb <exe_name>`.
 
 #### Commands
 
-* (r)un: start executable
-* (b)reak: sets breakpoints
-* where: prints function line where seg. fault occurred
-* (b)ack(t)race: prints the full chain fo function calls
-* (s)tep: executes current line of the program, enters function calls
-* (n)ext: like step but does not enter functions
-* (c)ontinue: continue to the next breakpoint
-* (p)rint *var*: prints the value of *var*
-* watch *var*: watch a certain variable
-* (l)ist line_num : list source code near line_num
-* kill: terminate the executable
-* quit: quit GDB
+* **(r)un**: start executable
+* **(b)reak**: sets breakpoints
+* **where**: prints function line where seg. fault occurred
+* **(b)ack(t)race**: prints the full chain fo function calls
+* **(s)tep**: executes current line of the program, enters function calls
+* **(n)ext**: like step but does not enter functions
+* **(c)ontinue**: continue to the next breakpoint
+* **(p)rint *var***: prints the value of *var*
+* **watch *var***: watch a certain variable
+* **(l)ist *line_num*** : list source code near line_num
+* **kill**: terminate the executable
+* **quit**: quit GDB
  
 ## Unit Testing
+
+* Used for testing a program
+* Unit tests because small test in your program that make sure that your decomposable parts are working
+* Include `<assert>` library
+* `assert` that something is true, and if it is not true then the code triggers a breakpoint.
 
