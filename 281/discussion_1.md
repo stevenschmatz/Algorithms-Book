@@ -80,3 +80,31 @@ To start, type `gdb <exe_name>`.
 * Include `<assert>` library
 * `assert` that something is true, and if it is not true then the code triggers a breakpoint.
 
+#### Example
+
+```c++
+class PowerRaiser {
+public:
+    PowerRaiser( unsigned int _base) : base(_base) {}
+    unsigned int getBase() {
+    return base};
+}
+
+class PowerRaiserTest{
+public:
+    runTestGetBase() {
+        PowerRaiser p(10);
+        assert(p.getBase() == 10);
+    }
+    
+    runTestRaise() {
+        PowerRaiser p(3);
+        assert(1 == p.raise(0));
+        assert(3 == p.raise(1));
+    }
+    
+    testAll() {
+        testGetBase();
+        testGetPower();
+    }
+```
