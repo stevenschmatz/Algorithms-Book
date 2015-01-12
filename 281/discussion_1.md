@@ -152,3 +152,13 @@ int main() {
 }
 ```
 
+Or, faster:
+
+```c++
+int main() {
+    char c;
+    while ((c = cin.get()) != 1) {
+        cout << c;
+    }
+}
+```
