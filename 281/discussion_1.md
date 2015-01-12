@@ -222,10 +222,20 @@ int main(int argc, char **argv) {
     int index, c;
     
     while ((c = getopt(argc, argv, "abc:")) != -1) {
-    
+        switch (c) {
+            case 'a':
+                break;
+            case 'b':
+                break;
+            case 'c':
+                string foo = optarg
+                break;
+        }
     }
 }
 ```
+
+`optarg`: global external variable in `<stdio.h>`, representing the value for the argument, if the variable requires an argument.
 
 `"abc:"` means that an argument is required.
 
