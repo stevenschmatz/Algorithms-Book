@@ -235,9 +235,9 @@ int main(int argc, char **argv) {
 }
 ```
 
-`optarg`: global external variable in `<stdio.h>`, representing the value for the argument, if the variable requires an argument.
+`"abc:"` means that an argument is required for `c`.
 
-`"abc:"` means that an argument is required.
+`optarg`: global external variable in `<stdio.h>`, representing the value for the argument, if the variable requires an argument.
 
 ```
 ./exec -a -b -c foo
