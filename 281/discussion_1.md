@@ -239,5 +239,5 @@ Or, alternatively:
 ./exec -a -c foo -b
 ```
 
-The order of the arguments does not matter.
+The order of the arguments does not matter. This is only if the flag only has *one argument*. However, there is a way so that you can specify more than one argument for a flag.
 
