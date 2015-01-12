@@ -138,3 +138,14 @@ fstream: open files with *read and write* permission
 
 Instead of reading from `cin`, path281 executable will now read from `input.txt` and instead of writing to `cout`, it will write to `output.txt`.
 
+##### Read characters one by one
+```c++
+int main() {
+    while (cin.get() != -1) {
+        cin.unget();
+        char c = cin.get();
+        cout << c;
+    }
+}
+```
+
