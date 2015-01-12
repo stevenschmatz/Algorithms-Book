@@ -130,3 +130,11 @@ ifstream: open files with *read* permission
 ofstream: open files with *write* permission
 fstream: open files with *read and write* permission
 
+##### Pipelining
+
+```
+./path281 < input.txt > output.txt
+```
+
+Instead of reading from `cin`, path281 executable will now read from `input.txt` and instead of writing to `cout`, it will write to `output.txt`.
+
