@@ -110,7 +110,7 @@ public:
 }
 ```
 
-#### C++ Input/Output
+## C++ Input/Output
 
 * `ios_base`
     * `ios`
@@ -133,7 +133,7 @@ ifstream: open files with *read* permission
 ofstream: open files with *write* permission
 fstream: open files with *read and write* permission
 
-##### Pipelining
+#### Pipelining
 
 ```
 ./path281 < input.txt > output.txt
@@ -141,7 +141,7 @@ fstream: open files with *read and write* permission
 
 Instead of reading from `cin`, path281 executable will now read from `input.txt` and instead of writing to `cout`, it will write to `output.txt`.
 
-##### Read characters by character
+#### Read characters by character
 ```c++
 int main() {
     while (cin.get() != -1) {
@@ -163,7 +163,7 @@ int main() {
 }
 ```
 
-##### Read line by line
+#### Read line by line
 
 ```c++
 int main() {
