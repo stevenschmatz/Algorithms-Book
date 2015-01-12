@@ -118,7 +118,8 @@ public:
             * ifstream
             * istringstream
             * iostream
-                * cin
+                * fstream
+                * stringstream
         * ostream
             * cout, cerr, clog
             * ofstream
@@ -184,4 +185,12 @@ int main() {
 }
 ```
 
-This is inefficient, because you have to flush to the buffer every time.
+This is inefficient, because you have to flush to the buffer every time. When you use a newline instead, then it is universally faster because the system determines when to flush the buffer.
+
+```c++
+int main() {
+    for(int i = 0; i < 100; i++) {
+        cout << i << '\n';
+    }
+}
+```
