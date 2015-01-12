@@ -66,10 +66,10 @@ To start, type `gdb <exe_name>`.
 * (b)ack(t)race: prints the full chain fo function calls
 * (s)tep: executes current line of the program, enters function calls
 * (n)ext: like step but does not enter functions
-* (c)ontinue: contineu to the next breakpoint
-* (p)rint <var>: prints the value of <var>
-* watch <var>: watch a certain variable
-* (l)ist line num : list source cdoce near line num
+* (c)ontinue: continue to the next breakpoint
+* (p)rint *var*: prints the value of *var*
+* watch *var*: watch a certain variable
+* (l)ist line_num : list source code near line_num
 * kill: terminate the executable
 * quit: quit GDB
  
