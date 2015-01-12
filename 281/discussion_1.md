@@ -109,3 +109,24 @@ public:
     }
 }
 ```
+
+#### C++ Input/Output
+
+* `ios_base`
+    * `ios`
+        * istream
+            * iostream
+                * cin
+                * ifstream
+                * istringstream
+        * ostream
+            * streambuf
+
+
+cin: read from stdin
+cout: write to stdout
+cerr: write to stderr
+ifstream: open files with read permission
+ofstream: open files with *write* permission
+fstream: open files with read and write permission
+
