@@ -266,5 +266,17 @@ The order of the arguments does not matter. This is only if the flag only has *o
 
 #### Non-optional arguments
 
+Use another external variable in `<stdio.h>`, the variable `optind`.
+
+```c++
+// First non-optional argument
+string arg1 = argv[optind];
+
+// Second non-optional argument
+string arg2 = argv[optind + 1];
+```
+
+
+
 
 
