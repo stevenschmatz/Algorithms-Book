@@ -228,7 +228,7 @@ int main(int argc, char **argv) {
             case 'b':
                 break;
             case 'c':
-                string foo = optarg
+                string foo = optarg;
                 break;
         }
     }
