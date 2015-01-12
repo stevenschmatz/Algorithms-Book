@@ -117,12 +117,12 @@ Class structure:
 ![Class Structure](http://www.cplusplus.com/img/iostream.gif)
 
 
-cin: read from stdin
-cout: write to stdout
-cerr: write to stderr
-ifstream: open files with *read* permission
-ofstream: open files with *write* permission
-fstream: open files with *read and write* permission
+`cin`: read from stdin
+`cout`: write to stdout
+`cerr`: write to stderr
+`ifstream`: open files with *read* permission
+`ofstream`: open files with *write* permission
+`fstream`: open files with *read and write* permission
 
 #### Pipelining
 
