@@ -112,19 +112,9 @@ public:
 
 ## C++ Input/Output
 
-* `ios_base`
-    * `ios`
-        * istream
-            * ifstream
-            * istringstream
-            * iostream
-                * fstream
-                * stringstream
-        * ostream
-            * cout, cerr, clog
-            * ofstream
-            * ostringstream
-            * streambuf
+Class structure:
+
+![Class Structure](http://www.cplusplus.com/img/iostream.gif)
 
 
 cin: read from stdin
