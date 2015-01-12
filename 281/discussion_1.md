@@ -183,3 +183,5 @@ int main() {
     }
 }
 ```
+
+This is inefficient, because you have to flush to the buffer every time.
