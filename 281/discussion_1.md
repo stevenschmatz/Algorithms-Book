@@ -221,7 +221,7 @@ int main(int argc, char **argv) {
     char *cvalue = nullptr;
     int index, c;
     
-    while ((c = getopt(argc, argv, "abc:")) == -1) {
+    while ((c = getopt(argc, argv, "abc:")) != -1) {
     
     }
 }
