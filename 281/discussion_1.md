@@ -48,4 +48,13 @@ CPPFLAGS = -c -Wall -Wextra -Wvla -pedantic -O3
 #### Object files
 * Pre-compiled – much faster to complie compared to executables
 * If you change one part, you only need to recompile that one part from source.
+ 
+#### GDB
+
+* Text-based debugging tool
+* Useful for solving segfaults (program received signal SIGSEGV), or memory issues, e.g., index out of bounces
+* When compiling, add -g to Makefile
+* adds debugging symbols to binary
+ 
+To start, type `gdb <exe_name>`.
 
