@@ -115,11 +115,14 @@ public:
 * `ios_base`
     * `ios`
         * istream
+            * ifstream
+            * istringstream
             * iostream
                 * cin
-                * ifstream
-                * istringstream
         * ostream
+            * cout, cerr, clog
+            * ofstream
+            * ostringstream
             * streambuf
 
 
