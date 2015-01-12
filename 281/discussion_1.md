@@ -224,11 +224,18 @@ int main(int argc, char **argv) {
     while ((c = getopt(argc, argv, "abc:")) != -1) {
         switch (c) {
             case 'a':
+                // do something
                 break;
             case 'b':
+                // do something else
                 break;
             case 'c':
+                // do something with the value of c
+                
+                // optarg is the value of the argument after
+                // the -c flag is used.
                 string foo = optarg;
+                
                 break;
         }
     }
