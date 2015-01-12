@@ -287,6 +287,17 @@ Some options can be verbose:
 ./exec --help
 ```
 
+You have to structure things a bit differently for a verbose option:
+
+```c++
+struct option {
+    const char * name;
+    int has_arg;
+    int *flag; // set to null all the time
+    int *value; // takes the first letter of name and converts it to ascii.
+}
+```
+
 
 
 
