@@ -276,7 +276,7 @@ string arg1 = argv[optind];
 string arg2 = argv[optind + 1];
 ```
 
-
+When you call an executable with non-optional arguments, the non-optional arguments are automatically moved to the end of the flag list, and then you can access them by indexing them at the `optind + i` position.
 
 
 
