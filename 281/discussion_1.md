@@ -227,3 +227,17 @@ int main(int argc, char **argv) {
 }
 ```
 
+`"abc:"` means that an argument is required.
+
+```
+./exec -a -b -c foo
+```
+
+Or, alternatively:
+
+```
+./exec -a -c foo -b
+```
+
+The order of the arguments does not matter.
+
