@@ -239,5 +239,11 @@ Or, alternatively:
 ./exec -a -c foo -b
 ```
 
+If you want two flags to have arguments, use `"a:b:c:"`. This means that you could call the executable like so:
+
+```
+./exec -a hello -b goodbye -c mergesort
+```
+
 The order of the arguments does not matter. This is only if the flag only has *one argument*. However, there is a way so that you can specify more than one argument for a flag.
 
