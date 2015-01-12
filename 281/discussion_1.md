@@ -199,3 +199,14 @@ int main() {
     cout << ss.str();
 }
 ```
+
+## Getopt
+
+Motivation: simplifies command line parsing
+
+```
+./exec -a mergesort -V 1.0
+```
+
+In `argv`, all flags and values are treated the same way.
+
