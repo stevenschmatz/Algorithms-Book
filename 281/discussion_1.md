@@ -184,3 +184,18 @@ int main() {
     }
 }
 ```
+
+#### Using Internal Buffers
+
+```c++
+#include <sstream>
+int main() {
+    ostringstream ss;
+    
+    for(int i = 0; i < 100; i++) {
+        ss << i << '\n';
+    }
+    
+    cout << ss.str();
+}
+```
