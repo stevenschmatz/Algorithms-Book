@@ -208,5 +208,20 @@ Motivation: simplifies command line parsing
 ./exec -a mergesort -V 1.0
 ```
 
-In `argv`, all flags and values are treated the same way.
+In `argv`, all flags and values are treated the same way. 
+
+Instead of coding a way to parse the command line arguments every time, GNU provided a way to do this in a standard way.
+
+```c++
+#include <unistd.h>
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+    int aflag = 0; int bflag = 0;
+    char *cvalue = nullptr;
+    int index, c;
+    
+    while ();
+}
+```
 
